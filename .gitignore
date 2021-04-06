@@ -4,5 +4,3 @@ node_modules
 storage_*
 report*
 .project
-.pydevproject
-.vscode
