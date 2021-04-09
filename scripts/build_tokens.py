@@ -94,7 +94,7 @@ def inject_tokens(config_filename, tokens):
 CONFIG_FILE = "config/main.json"
 ETH_TOKEN = {
     "addr": "0x0000000000000000000000000000000000000000",
-    "name": "ETH",
+    "name": "BNB",
     "decimals": 18
 }
 
