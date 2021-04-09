@@ -24,7 +24,7 @@
   "etherscanAPIKey": "5YP16XN9XYVED32BAWWKEZXEZ42BW9BJ9U",
   "ledgerPath": "m/44'/60'/0'/0",   
   "bases": [
-    { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "fullName": "Binance Smart Chain", "decimals": 18 }
+    { "addr": "0x0000000000000000000000000000000000000000", "name": "BSC", "fullName": "Binance Smart Chain", "decimals": 18 }
   ],
   "tokens": [
     { "addr": "0x55d398326f99059ff775485246999027b3197955", "name": "USDT", "fullName": "Tether", "decimals": 18 },
@@ -75,5 +75,5 @@
     { "addr": "0x4d4e595d643dc61ea7fcbf12e4b1aaa39f9975b8", "name": "PET", "fullName": "Battle Pets", "decimals": 18 },
     { "addr": "0xC808592e5b4585F982bc728d63b227634bc007a4", "name": "FROG", "fullName": "CryptoFrog.Finance", "decimals": 18 }
    ],
-  "defaultPair": { "token": "USDT", "base": "ETH" }
+  "defaultPair": { "token": "USDT", "base": "BSC" }
 }
