@@ -30,7 +30,7 @@
     </div>
     <p>This is a basic UI to help you convert back and forth between GNT and GNTW. <a href="https://metamask.io" target="_blank">MetaMask</a> is the suggested client.</p>
     <p>GNTW is a wrapper token for GNT that supports the full <a href="https://github.com/ethereum/EIPs/issues/20" target="_blank">ERC-20 token standard</a>.</p>
-    <p>The GNTW smart contract allows you to convert back and forth between <a href="https://etherscan.io/token/Golem" target="_blank">GNT</a> (Golem Network Token) and <a href="https://etherscan.io/token/0x936f78b9852d12f5cb93177c1f84fb8513d06263" target="_blank">GNTW</a> (Golem Network Token Wrapped).</p>
+    <p>The GNTW smart contract allows you to convert back and forth between <a href="https://bscscan.com/token/Golem" target="_blank">GNT</a> (Golem Network Token) and <a href="https://bscscan.com/token/0x936f78b9852d12f5cb93177c1f84fb8513d06263" target="_blank">GNTW</a> (Golem Network Token Wrapped).</p>
     <p>The main benefit of converting to GNTW is that, since it supports the full ERC-20 token standard, you can trade GNTW on decentralized exchanges like <a href="https://forkdelta.app/#GNTW-ETH" target="_blank">ForkDelta</a>.</p>
     <p>Original source and discussion: <a href="https://np.reddit.com/r/ethereum/comments/5cs2n4/erc20compliant_wrapper_token_for_gnt_will_enable/" target="_blank">on reddit</a>.</p>
 
@@ -97,7 +97,7 @@
         Wrapper.getPersonalDepositAddress(account, function(err, result) {
           depositAddress = result;
           if (depositAddress != '0x0000000000000000000000000000000000000000') {
-            $('#depositAddress').html('<p>Deposit address: <a href="https://etherscan.io/address/'+depositAddress+'" target="_blank">'+depositAddress+'</a></p>');
+            $('#depositAddress').html('<p>Deposit address: <a href="https://bscscan.com/address/'+depositAddress+'" target="_blank">'+depositAddress+'</a></p>');
             var html = '<p><input class="form-control" style="width: 150px; display: inline;" type="text" id="depositAmount"> <button class="btn btn-default" onclick="sendGNT();">Send GNT</button></p>';
             if ($('#sendGNT').html()!=html) $('#sendGNT').html(html);
             GNT.balanceOf(depositAddress, function(err, result) {
@@ -157,7 +157,7 @@
       }
 
       function txSent(hash) {
-        alert('You sent a transaction. Follow it here: <a href="https://etherscan.io/tx/'+hash+'" target="_blank">'+hash+'</a>');
+        alert('You sent a transaction. Follow it here: <a href="https://bscscan.com/tx/'+hash+'" target="_blank">'+hash+'</a>');
       }
 
       function alert(message) {
