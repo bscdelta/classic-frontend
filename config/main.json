@@ -24,10 +24,10 @@
   "etherscanAPIKey": "5YP16XN9XYVED32BAWWKEZXEZ42BW9BJ9U",
   "ledgerPath": "m/44'/60'/0'/0",   
   "bases": [
+    { "addr": "0x55d398326f99059ff775485246999027b3197955", "name": "USDT", "fullName": "Tether", "decimals": 18 },
     { "addr": "0x0000000000000000000000000000000000000000", "name": "BNB", "fullName": "Binance Token", "decimals": 18 }
   ],
   "tokens": [
-    { "addr": "0x55d398326f99059ff775485246999027b3197955", "name": "USDT", "fullName": "Tether", "decimals": 18 },
     { "addr": "0xe9e7cea3dedca5984780bafc599bd69add087d56", "name": "BUSD", "fullName": "Binance USD", "decimals": 18 },
     { "addr": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", "name": "CAKE", "fullName": "PancakeSwap", "decimals": 18 },
     { "addr": "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63", "name": "XVS", "fullName": "Venus", "decimals": 18 },
@@ -75,5 +75,5 @@
     { "addr": "0x4d4e595d643dc61ea7fcbf12e4b1aaa39f9975b8", "name": "PET", "fullName": "Battle Pets", "decimals": 18 },
     { "addr": "0xC808592e5b4585F982bc728d63b227634bc007a4", "name": "FROG", "fullName": "CryptoFrog.Finance", "decimals": 18 }
    ],
-  "defaultPair": { "token": "USDT", "base": "BNB" }
+  "defaultPair": { "token": "BNB", "base": "USDT" }
 }
